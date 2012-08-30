@@ -1,0 +1,73 @@
+{
+    "name": "FOP",
+    "settings": {
+        "urlPrefix": "http://localhost/FOP/FOP-8-2012/FOP",
+        "spacesToIndent": 4,
+        "exportPath": "C:/xampp/htdocs/FOP/FOP-8-2012/FOP",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 584,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000495,
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "f7da12fd-37bc-4152-9677-d43e29540266": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "9224ec03-f0ed-4519-b71e-dcfc61a43d04": {
+            "paths": [
+                "metadata/model/matrix",
+                "app/model/override/matrix.js",
+                "app/model/matrix.js"
+            ],
+            "className": "matrix"
+        },
+        "bf233eaa-e5e9-4cca-a9c4-d7ae86e42679": {
+            "paths": [
+                "metadata/store/fopmatrix",
+                "app/store/override/fopmatrix.js",
+                "app/store/fopmatrix.js"
+            ],
+            "className": "fopmatrix"
+        },
+        "d2a4e87b-499a-41d5-afbf-0b673666ee95": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "f7da12fd-37bc-4152-9677-d43e29540266"
+        ],
+        "store": [
+            "bf233eaa-e5e9-4cca-a9c4-d7ae86e42679"
+        ],
+        "controller": [],
+        "model": [
+            "9224ec03-f0ed-4519-b71e-dcfc61a43d04"
+        ],
+        "resource": [
+            "d2a4e87b-499a-41d5-afbf-0b673666ee95"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

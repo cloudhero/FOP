@@ -1,0 +1,59 @@
+{
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "fopmatrix",
+        "autoLoad": true,
+        "storeId": "fopmatrix",
+        "model": "matrix"
+    },
+    "id": "ExtBox1-ext-gen5905",
+    "designerId": "bf233eaa-e5e9-4cca-a9c4-d7ae86e42679",
+    "cn": [
+        {
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "matrix.json"
+            },
+            "designerId": "b9cd88ab-837c-4d48-b9f3-0f4701c35341",
+            "cn": [
+                {
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyJsonReader3",
+                        "root": "matrix"
+                    },
+                    "designerId": "4adde209-eed4-4c69-9a3b-ebd027210287"
+                }
+            ]
+        },
+        {
+            "type": "sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MySorter",
+                "property": "project"
+            },
+            "designerId": "ad9023fe-4ee2-4636-a56c-442eef6d1215"
+        }
+    ]
+}

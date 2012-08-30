@@ -1,0 +1,228 @@
+{
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "autoScroll": true
+    },
+    "id": "ExtBox1-ext-gen3365",
+    "designerId": "f7da12fd-37bc-4152-9677-d43e29540266",
+    "cn": [
+        {
+            "type": "panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyPanel",
+                "height": 300,
+                "autoScroll": true,
+                "collapseFirst": false,
+                "collapsible": true,
+                "title": "FOP Development Group - www.fopdevelopmentgroup.com"
+            },
+            "designerId": "a2a1e1f2-4d41-4290-bbdb-032721011121",
+            "cn": [
+                {
+                    "type": "gridpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": null,
+                        "designer|userClassName": "MyGridPanel",
+                        "floating": false,
+                        "height": null,
+                        "id": "projects",
+                        "maxHeight": null,
+                        "autoScroll": false,
+                        "overlapHeader": true,
+                        "title": "Press on the column title to resort this table",
+                        "titleCollapse": false,
+                        "forceFit": true,
+                        "scroll": "vertical",
+                        "store": "fopmatrix",
+                        "columnLines": true
+                    },
+                    "designerId": "ccbecc96-2f32-4179-9b8e-8176706ea3a5",
+                    "cn": [
+                        {
+                            "type": "gridview",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView",
+                                "autoScroll": true,
+                                "blockRefresh": false
+                            },
+                            "designerId": "ce31aaba-ee3e-4392-b785-2f3088ef7d06"
+                        },
+                        {
+                            "type": "groupinggridfeature",
+                            "reference": {
+                                "name": "features",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGroupingFeature",
+                                "enableGroupingMenu": false,
+                                "enableNoGroups": false,
+                                "groupByText": null
+                            },
+                            "designerId": "64f8138c-4ec9-4a0a-8a38-5fea302cf0e5"
+                        },
+                        {
+                            "type": "rowselectionmodel",
+                            "reference": {
+                                "name": "selModel",
+                                "type": "object"
+                            },
+                            "codeClass": "Ext.selection.RowModel",
+                            "userConfig": {
+                                "designer|userClassName": "MyRowSelectionModel"
+                            },
+                            "designerId": "99b48628-8af6-4f47-a994-627f842b4fb2",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "onRowselectionmodelSelect",
+                                        "fn": "onRowselectionmodelSelect",
+                                        "implHandler": [
+                                            "Ext.getCmp('bottomtab').removeAll();\r",
+                                            "Ext.getCmp('bottomtab').add({ title: record.get(\"imagename\"), autoScroll: 'true', html: '<IFRAME src=\"' + record.get(\"image\") + '\" width=\"' + record.get(\"width\") + '\" height=\"' + record.get(\"height\") + '\" frameborder=\"0\"></IFRAME>' });\r",
+                                            "Ext.getCmp('bottomtab').add({ title: record.get(\"PDFname\"), autoScroll: 'true', html: '<IFRAME src=\"' + record.get(\"pdf\") + '\" width=\"' + record.get(\"pdfwidth\") + '\" height=\"' + record.get(\"pdfheight\") + '\" frameborder=\"0\"></IFRAME>' });\r",
+                                            ""
+                                        ],
+                                        "name": "select",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "c69b18d4-bd9a-4d1f-b814-9e5dfb8d57ce"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn",
+                                "dataIndex": "project",
+                                "text": "Instulation / Project Name"
+                            },
+                            "designerId": "b006141a-00e2-4d18-ab94-0fb41fc3b982"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn1",
+                                "dataIndex": "capacity",
+                                "text": "Capacity in gpd"
+                            },
+                            "designerId": "95be82e0-c605-4211-8be1-773ba90b6ef2"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn2",
+                                "dataIndex": "volume",
+                                "text": "Dwellings Served"
+                            },
+                            "designerId": "38055ed5-598e-43be-9865-09e5780f24ce"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn3",
+                                "dataIndex": "category",
+                                "text": "Market Segmentation"
+                            },
+                            "designerId": "b0f250c6-872a-4b10-b446-3664525aa142"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn4",
+                                "dataIndex": "footprint",
+                                "text": "Footprint"
+                            },
+                            "designerId": "45895ec6-c5e7-442b-b9d3-b1a330bbb6aa"
+                        },
+                        {
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn5",
+                                "dataIndex": "above",
+                                "text": "Above / Below Ground"
+                            },
+                            "designerId": "c28d2489-62b4-40f1-8e04-c3d7ae611399"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTabPanel",
+                "id": "bottomtab",
+                "itemId": "bottomtab",
+                "stateId": "bottomtab",
+                "title": "Detail Information - images and PDF files",
+                "activeTab": 0
+            },
+            "designerId": "6fe67e39-78c3-4dbd-95c8-b323ae44493c"
+        }
+    ]
+}
