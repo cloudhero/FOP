@@ -1,0 +1,648 @@
+{
+    "id": "ExtBox1-ext-gen4175",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "height": 700,
+        "width": 700,
+        "autoScroll": true,
+        "designer|userClassName": "MyContainer"
+    },
+    "customConfigs": [],
+    "designerId": "57575d88-2b01-4f3e-905f-dfa022ac1fb5",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4428",
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 675,
+                "margin": "5px",
+                "maxWidth": 750,
+                "minButtonWidth": 70,
+                "title": "",
+                "activeTab": 0,
+                "designer|userClassName": "MyTabPanel"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen4438",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 675,
+                        "html": "  <h1>Municipal Approaches</h1>\n          \n         <p> The USPF system is ideal for quick and cost efficient plant expansion. A USBF plant capacity can range anywhere from 5000 GPD to well over 3 MGB.  Plants can be installed and operational in months rather than years without tying up your valuable capital area clients need the flexibility, practicality and environmental security that exists with USPF modular design.</p>\n          \n          <p>With costly designs and mandated complaints issues casting a shadow over wastewater infrastructure, municipalities and government agencies may not be able to address all the uncertainties required for the most favorable economic environmental solutions. As a result, practical approaches are needed to resolve infrastructure upgrades. The USBF can meet or exceed California title 22 and Chesapeake Bay standards.</p>\n          \n          <p>The cost of money coupled with challenges from a shrinking municipal bond market and expensive insurance coverage, make it difficult to meet financial obligations. The concept of \"built it and they will come\" no longer applies.  All sectors of our economy are uncertain. As development and growth continued to slow, municipalities and sewer authorities need to spend their resources wisely.  Wastewater treatment systems that offer modular design allow for expansion when the market is stable and the need is certain.  Adding capacity in incremental stages allows a community to allocate it's dollars to other critical programs like parks, schools and police/fire.  The luxury of prepaying millions of dollars to sit on future capacity doesn't make good economic sense. It boils down to being fiscally responsible; making your money work for you, not vice versa.</p>\n\n<h1>Supervisory Control and Data Acquisition (SCADA)</h1>\n          <p>The Supervisory Control and Data Acquisition (SCADA), which monitors equipment running status and receives data from transmitting instruments, makes plant supervision undemanding. All upset conditions and equipment malfunctions are alarmed and annuciated through the SCADA system to designated remote locations and to the operator on call. Limited direct operator input is required.</p>\n          \n        <p>Specific benefits include reductions in energy costs through more efficient usage and shifting of loads to off-peak hours, reductions in maintenance costs, and increases in effective capacity through optimization of processes. These factor result in significant reductions in net operating costs, and therefore are capable of yielding net positive returns on investments in process control technology.</p>\n          \n          <p><span class=\"bold-text-random\">Additional benefits</span>: </p>\n          <ul>\n            <li> Remote monitoring 24/7, from another location worldwide.        </li>\n            <li>Investment protection.</li>\n            <li> Reduced physical oversight in an already operator friendly treatment system.        </li>\n            <li>SCA DA help reduce a papperwork for regarding regulatory reporting.</li>\n            <li> Auto-phone dialing features automatically notify personnel of a problem. </li>\n        </ul>\n        <h1><br>\n        Diagnostic functions</h1>\n          <p>Some SCADA systems have incorporated statistical packages that can be used for online analysis of processing data to detect \"when something has changed for no reason\". Such changes can often be tied to drifts in calibration of instruments and/or implementation failures of control components.</p>\n",
+                        "styleHtmlContent": true,
+                        "width": null,
+                        "autoScroll": true,
+                        "title": "Municipal",
+                        "designer|userClassName": "MyPanel",
+                        "dock": null
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen4450",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen5559",
+                            "type": "tabpanel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "frame": false,
+                                "height": 350,
+                                "maxWidth": 750,
+                                "activeTab": 0,
+                                "designer|userClassName": "MyTabPanel1",
+                                "dock": "bottom"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen9045",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "frame": false,
+                                        "height": 500,
+                                        "html": "<center><p><img src=\"images/75k-modular.png\" alt=\"FOP - 75k modular facility\">\n</p>\n<p><a href=\"pdf/USBF Modular Cost-efficient Expansion Capability.pdf\" target=\"_blank\">Click for more details</a></p></center>",
+                                        "styleHtmlContent": true,
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "maintainFlex": true,
+                                        "title": "75K gpd modular increments",
+                                        "designer|userClassName": "MyPanel5"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9052",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig5"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5586",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<p><img src=\"images/m-2.png\" width=\"150\" height=\"90\" alt=\"FOP - 10k-30k gdp facility\">\n</p>\n<p>10,000-30,000 gpd facility</p><p><a href=\"pdf/USBF Eustis 300,000 gpd.pdf\" target=\"_blank\">Click for more details</a></p>",
+                                        "styleHtmlContent": true,
+                                        "title": "10k-30k gpd facility",
+                                        "designer|userClassName": "MyPanel4"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen5598",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig4"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5569",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 442,
+                                        "html": "<a href=\"pdf/CleanEnergy-GreeneCounty.pdf\" class=\"center-images\"><img src=\"images/m-1.png\" width=\"150\" height=\"90\" alt=\"FOP\"></a><p>300,000 gpd facility ~ 1,200 homes</p>\n",
+                                        "styleHtmlContent": true,
+                                        "layout": "fit",
+                                        "title": "300k gpd facility",
+                                        "designer|userClassName": "MyPanel3",
+                                        "dock": null
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen5581",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig3"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen5603",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "frame": false,
+                                        "height": 500,
+                                        "html": "<p><img src=\"images/m-3.png\" width=\"150\" height=\"90\" alt=\"FOP - 1MGD facility\">\n</p>\n<p>1MGD facility -            approx. 4,000 homes</p><p><a href=\"pdf/USBF Lake Alfred 1 MGD.pdf\" target=\"_blank\">Click for more details</a></p><p><a href=\"pdf/USBF Strathmore 1 MGD.pdf\" target=\"_blank\">Click for more details</a></p>",
+                                        "styleHtmlContent": true,
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "maintainFlex": true,
+                                        "title": "1MGD facility",
+                                        "designer|userClassName": "MyPanel5"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen5615",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig5"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen4455",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "<h1> Risk Reduction for Private Development</h1>\n          \n          <p>The federal government continues to place tighter and more stringent wastewater regulations on the backs of public and private wastewater systems. FOP helps clients comply with those regulations in a more cost-effective and timely manner that can be accomplished by themselves. Under the traditional scenario, the client is fully exposed to all the liabilities inherent in operating a utility including operational risks, economic risk, force majeure risk and environmental risks. Our unique structuring options can serve as a means of managing some of these risk by placing the responsibility with our fully bonded program and esteemed industry partners.</p>\n          \n          <h1>Streamlined Process</h1>\n          <p>FOP brings a combination of established technology and flexible economic approaches. Typically, normal procedures entail years of planning, engineering, marketing, committee and voter approvals, complicated RFP's and the challenges associated with bond financing for wastewater expansion. As a result, nearly all traditional options are priced well above the FOP program. FOP's modular designs increase capacity in direct correlation to development needs. Most competing technologies that deliver the same daily capacity throughput with Title 22 and/or Chesapeake Bay quality discharge would require a more sizable capital investment. FOP plants can be approved and built in months rather than years. Our designs allow greater flexibility for clients requiring immediate capacity or phased-in expansion.</p>\n          \n           <h1>Managed Operating Costs and Efficiencies</h1>\n          <p>By virtue of specializing in multiple services, our team has developed practices that will allow us to perform more efficiently than a typical municipality, who must divide its attention across a number of different functions like fire/police protection, schools, parks, roads, solid waste and other critical infrastructure. When needed, our bonded operators are completely focused on operating your specific wastewater facility. As a result, this undivided attention produces greater efficiency with respect to key cost components such as maintenance, equipment replacement, electricity (including a renewable energy component), chemicals, labor and long term reliability. FOP places provisions in any operations contract to assure costs for repairing, upgrading and maintaining \"inside the fence\" infrastructure. In all cases, FOP works closely with the client or authority to retain the services of their current plant employees.</p>\n\n<h1>Supervisory Control and Data Acquisition (SCADA)</h1>\n          <p>The Supervisory Control and Data Acquisition (SCADA), which monitors equipment running status and receives data from transmitting instruments, makes plant supervision undemanding. All upset conditions and equipment malfunctions are alarmed and annuciated through the SCADA system to designated remote locations and to the operator on call. Limited direct operator input is required.</p>\n          \n        <p>Specific benefits include reductions in energy costs through more efficient usage and shifting of loads to off-peak hours, reductions in maintenance costs, and increases in effective capacity through optimization of processes. These factor result in significant reductions in net operating costs, and therefore are capable of yielding net positive returns on investments in process control technology.</p>\n          \n          <p><span class=\"bold-text-random\">Additional benefits</span>: </p>\n          <ul>\n            <li> Remote monitoring 24/7, from another location worldwide.        </li>\n            <li>Investment protection.</li>\n            <li> Reduced physical oversight in an already operator friendly treatment system.        </li>\n            <li>SCA DA help reduce a papperwork for regarding regulatory reporting.</li>\n            <li> Auto-phone dialing features automatically notify personnel of a problem. </li>\n        </ul>\n        <h1><br>\n        Diagnostic functions</h1>\n          <p>Some SCADA systems have incorporated statistical packages that can be used for online analysis of processing data to detect \"when something has changed for no reason\". Such changes can often be tied to drifts in calibration of instruments and/or implementation failures of control components.</p>\n",
+                        "maxWidth": null,
+                        "styleHtmlContent": true,
+                        "autoScroll": true,
+                        "title": "Private Development",
+                        "designer|userClassName": "MyPanel1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen4467",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig1"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen9884",
+                            "type": "tabpanel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "frame": false,
+                                "height": 350,
+                                "maxWidth": 750,
+                                "activeTab": 2,
+                                "designer|userClassName": "MyTabPanel1",
+                                "dock": "bottom"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen9891",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "frame": false,
+                                        "height": 500,
+                                        "html": "<center><p><img src=\"images/p-1.png\" alt=\"Emergency Response            Portable Wastewater Treatment\">\n</p>\n<p>Emergency Response            Portable Wastewater Treatment</p>\n<p><a href=\"pdf/USBF DR-5 Plant Description 2009.pdf\" target=\"_blank\">Click for more details</a></p></center>",
+                                        "styleHtmlContent": true,
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "maintainFlex": true,
+                                        "title": "Emergency Response",
+                                        "designer|userClassName": "MyPanel5"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9898",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig5"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen9902",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<p><img src=\"images/p-2.png\"  alt=\"FOP - 10k-30k gdp facility\">\n</p>\n<p>10,000-30,000 gpd facility</p><p><a href=\"pdf/USBF Private Developments 10k - 30k gpd Flows.pdf\" target=\"_blank\">Click for more details</a></p>",
+                                        "styleHtmlContent": true,
+                                        "title": "10k-30k gpd facility",
+                                        "designer|userClassName": "MyPanel4"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9909",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig4"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen9913",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "height": 442,
+                                        "html": "<img src=\"images/p-3.png\"  alt=\"FOP\"></a><p>300,000 gpd facility ~ 1,200 homes</p>\n",
+                                        "styleHtmlContent": true,
+                                        "layout": "fit",
+                                        "title": "300k gpd facility",
+                                        "designer|userClassName": "MyPanel3",
+                                        "dock": null
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9920",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig3"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen9924",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "frame": false,
+                                        "height": 500,
+                                        "html": "<p><img src=\"images/p-4.png\"  alt=\"FOP - 1MGD facility\">\n</p>\n<p>1MGD facility -            approx. 4,000 homes</p><p><a href=\"pdf/USBF Lake Alfred 1 MGD.pdf\" target=\"_blank\">Click for more details</a></p><p><a href=\"pdf/USBF Strathmore 1 MGD.pdf\" target=\"_blank\">Click for more details</a></p>",
+                                        "styleHtmlContent": true,
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "maintainFlex": true,
+                                        "title": "1MGD facility",
+                                        "designer|userClassName": "MyPanel5"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen9931",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig5"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen4472",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Military",
+                        "designer|userClassName": "MyPanel2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen4484",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen2748",
+                            "type": "tabpanel",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "frame": false,
+                                "height": 350,
+                                "maxWidth": 750,
+                                "activeTab": 1,
+                                "designer|userClassName": "MyTabPanel1",
+                                "dock": "bottom"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen2755",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "frame": false,
+                                        "height": 500,
+                                        "html": "<center><p><img src=\"images/p-1.png\" alt=\"Emergency Response            Portable Wastewater Treatment\">\n</p>\n<p>Emergency Response            Portable Wastewater Treatment</p>\n<p><a href=\"pdf/USBF DR-5 Plant Description 2009.pdf\" target=\"_blank\">Click for more details</a></p></center>",
+                                        "styleHtmlContent": true,
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "maintainFlex": true,
+                                        "title": "Emergency Response",
+                                        "designer|userClassName": "MyPanel5"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen2762",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig5"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen2766",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<center><p><img src=\"images/military2.png\"  alt=\"FOP facility\">\n</p>\n<p>Mobile facility</p><p><a href=\"pdf/US Navy SeaPort flyer.pdf\" target=\"_blank\">Click for more details</a></p></center>",
+                                        "styleHtmlContent": true,
+                                        "title": "Mobile facility",
+                                        "designer|userClassName": "MyPanel4"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen2773",
+                                            "type": "tab",
+                                            "reference": {
+                                                "name": "tabConfig",
+                                                "type": "object"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "TabConfig4"
+                                            },
+                                            "customConfigs": [],
+                                            "iconCls": "icon-tab-bar",
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen9995",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Disaster Relief",
+                        "designer|userClassName": "MyPanel2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen10002",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen10214",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": "Tribal / Native Homelands",
+                        "designer|userClassName": "MyPanel2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen10221",
+                            "type": "tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig2"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-tab-bar",
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

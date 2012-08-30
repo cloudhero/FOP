@@ -1,0 +1,20 @@
+{
+    "id": "ExtBox1-ext-gen4455",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 675,
+        "html": "<p>It is a power generator, as opposed to power saver, which can significantly offset the electrical cost of running wastewater treatment plants, refineries, food processing of all types, mining operations (active and spent), paper and pulp operations, and chemical plants.</p>\n<p>It is a power generator, as opposed to power saver, which can significantly offset the electrical cost of running wastewater treatment plants, refineries, food processing of all types, mining operations (active and spent), paper and pulp operations, and chemical plants.</p>\n<p>It is a power generator, as opposed to power saver, which can significantly offset the electrical cost of running wastewater treatment plants, refineries, food processing of all types, mining operations (active and spent), paper and pulp operations, and chemical plants.</p>",
+        "title": "Private Development",
+        "designer|userClassName": "MyPanel1",
+        "designer|userAlias": "mypanel1"
+    },
+    "customConfigs": [],
+    "designerId": "5419c4c5-4d85-48ec-a2fe-0bcc8e2c6b40",
+    "$viewOrder": 1,
+    "expanded": true
+}
